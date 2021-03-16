@@ -1,4 +1,4 @@
-header {
+header, .contact {
   height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -17,11 +17,11 @@ header {
   color: #3a2a2a;
 }
 
-header button {
+header button, .contact button {
   background-color: #b65599;
 }
 
-header button:hover {
+header button:hover, .contact button:hover {
   background-color: red;
 }
 
