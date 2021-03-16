@@ -1,0 +1,7 @@
+@import './variables';
+// it only needs to be imported once on the line -> _header.scss has access to the variables
+@import './header';
+
+.contact {
+  @include flexCenter(row, rgb(185, 207, 61));
+}
