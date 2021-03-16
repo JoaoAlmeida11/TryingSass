@@ -5,4 +5,5 @@
 .contact {
   @extend header;
   @include flexCenter(row, rgb(185, 207, 61));
+  width: 100%-20%;
 }
